@@ -1,0 +1,146 @@
+#content {
+  position: relative;
+}
+
+.moduletable.home-news {
+  font-family: $font-HelveticaNeueLTStd-Bd;
+  width: 66%;
+  float: left;
+  li {
+    width: 50%;
+  }
+  li:nth-child(2) {
+    float: left;
+  }
+  .item_published {
+    font-size: 14px;
+    color: $color-gray-light;
+  }
+
+}
+
+.moduletable.home-news {
+  .item {
+    width: 50%;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .item:nth-child(2) .item_content,  .item:nth-child(3) .item_content {
+    padding-bottom: 15px;
+    border-bottom: 4px solid $color-gray-light-border;
+  }
+  img {
+    display: none;
+  }
+  .item:nth-child(1) {
+    float: left;
+    height: 400px;
+    padding-left: 0;
+    img {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+
+}
+
+.home-news-heading, .home-blog-heading {
+  color: $color-blue;
+  font-size: 28px;
+  margin-bottom: 35px;
+}
+
+.moduletable.home-blog {
+  width: 33%;
+  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  .item_published {
+    font-size: 14px;
+    color: $color-gray-light;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.home-news, .moduletable.home-blog {
+  .readmore {
+    font-size: 15px;
+    color: $color-blue;
+    span:after {
+      display: inline-block;
+      content: '';
+      @include sprite($arrow);
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+  }
+  .item {
+    margin-bottom: 30px;
+    .item_introtext {
+      h3{
+        font-size: 24px;
+        margin: 15px 0px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.home-content-quick-links {
+
+  ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+  li {
+    width: 33%;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: $font-HelveticaNeueLTStd-Md;
+    font-size: 22px;
+    a {
+      position: relative;
+      width: 100%;
+      color: $color-blue;
+      display: inline-block;
+      background-color: $color-gray;
+      padding: 22px 30px;
+      line-height: 22px;
+      border-radius: 4px;
+      box-sizing: border-box;
+
+      &:hover {
+        background-color: $color-blue;
+        color: $color-gray;
+        transition: all 1s;
+        &:after {
+          @include sprite($arrow-white);
+        }
+      }
+      &:after {
+        display: inline-block;
+        content: "";
+        @include sprite($arrow);
+        right: 30px;
+        position: absolute;
+        top: 23px;
+      }
+    }
+    &:nth-child(1) {
+      padding-left: 0;
+    }
+    &:nth-child(3) {
+      padding-right: 0;
+    }
+
+  }
+}

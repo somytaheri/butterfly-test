@@ -1,0 +1,36 @@
+{
+  "name": "setup",
+  "version": "1.0.0",
+  "author": "SomyTaheri",
+  "description": "automated compilation of SASS, concatenation and minification of js, assemblage of handlebars templates to HTML with validation.",
+  "main": "gruntfile.js",
+  "htmlSource": "templates/DFSV/html",
+  "styleSource": "templates/DFSV/scss",
+  "cssDestination": "templates/DFSV/css",
+  "scriptSource": "templates/DFSV/js",
+  "scriptDestination": "templates/DFSV/js",
+  "imageSource": "templates/DFSV/images",
+  "imageDestination": "templates/DFSV/images",
+  "vendorScripts": "bower_components",
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "grunt": "^0.4.5",
+    "grunt-bower-install-simple": "^1.1.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.1.1",
+    "grunt-sass": "^1.0.0",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-contrib-cssmin": "^0.13.0",
+    "grunt-webfont": "^0.5.4",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-spritesmith": "^5.1.1",
+    "jit-grunt": "^0.9.1",
+    "time-grunt": "^1.2.1"
+  },
+  "dependencies": {
+    "sprity": "^1.0.7"
+  }
+}

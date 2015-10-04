@@ -1,0 +1,146 @@
+#footer {
+  height: 870px;
+  color: $color-white;
+  background-color: $color-blue-dark-3;
+  .footer-menu {
+    margin-bottom: 10px;
+    li {
+      font-size: 14px;
+      line-height: 14px;
+      display: inline-block;
+      border-right: 1px solid $color-white;
+      padding-right: 10px;
+      padding-left: 10px;
+      &:last-child {
+        border-right: none;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+#footer-top {
+  border-bottom: 4px solid $color-gray-blue;
+}
+
+.footer-social {
+  float: right;
+  .footer-social-header {
+    //display: inline-block;
+    font-size: 17px;
+    font-weight: 100;
+    float: left;
+    margin: 25px 105px 25px 0;
+    line-height: 29px;
+  }
+  p {
+    //display: inline-block;
+    float: left;
+    margin: 25px 0px 25px 0;
+  }
+  a {
+    display: inline-block;
+
+    //float: left;
+    span {
+      display: none;
+    }
+    &:nth-child(1) {
+      @include sprite($facebook-white);
+      margin-right: 15px;
+    }
+    &:nth-child(2) {
+      @include sprite($twitter-white);
+      margin-right: 15px;
+    }
+    &:nth-child(3) {
+      @include sprite($linkedin-white);
+    }
+
+  }
+}
+
+.footer-main-menu {
+  width: 25%;
+}
+
+.footer-learn-menu {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 100;
+  &-heading {
+    margin-top: 0;
+    font-family: $font-HelveticaNeueLTStd-Bd;
+    font-size: 17px;
+  }
+  ul {
+    height: 101px;
+  }
+  li {
+    width: 50%;
+    float: right;
+  }
+  li:nth-last-of-type(n+4) {
+    float: left;
+  }
+}
+
+.footer-contact {
+  width: 25%;
+  font-size: 14px;
+  font-weight: 100;
+  &-heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 17px;
+  }
+  &-address-heading {
+    font-family: $font-HelveticaNeueLTStd-Bd;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  p {
+    line-height: 20px;
+  }
+}
+
+.footer-main-menu, .footer-learn-menu, .footer-contact {
+  float: left;
+
+  margin-top: 30px;
+  li {
+    margin-bottom: 20px;
+  }
+}
+
+.footer-main-menu {
+  font-family: $font-HelveticaNeueLTStd-Bd;
+  font-size: 17px;
+  font-weight: 100;
+
+}
+
+.footer-copyright {
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+#development {
+  font-size: 14px;
+  font-weight: 100;
+  a {
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+    @include sprite($-b-i-logo);
+    span {
+      display: none;
+    }
+  }
+
+}

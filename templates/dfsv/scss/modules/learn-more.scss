@@ -1,0 +1,54 @@
+.learn-more-header {
+  color: $color-blue;
+  margin-bottom: 38px;
+}
+
+.learn-more {
+  border: 4px solid $color-gray-light-border;
+  padding: 22px 40px 10px 40px;
+  margin-bottom: 22px;
+  ul {
+    li {
+      display: inline-block;
+      width: 33%;
+      line-height: 31px;
+      margin-bottom: 30px;
+      a:before {
+        content: '';
+        float: left;
+        margin: 0 22px 0px 0;
+        vertical-align: middle;
+      }
+      &:nth-child(1) {
+        a:before {
+          @include sprite($licence);
+        }
+      }
+      &:nth-child(2) {
+        a:before {
+          @include sprite($producing-dairy);
+        }
+      }
+      &:nth-child(3) {
+        a:before {
+          @include sprite($audit);
+        }
+      }
+      &:nth-child(4) {
+        a:before {
+          @include sprite($safety);
+        }
+      }
+      &:nth-child(5) {
+        a:before {
+          @include sprite($transfering);
+        }
+      }
+      &:nth-child(6) {
+        a:before {
+          @include sprite($manufacturing);
+        }
+      }
+    }
+  }
+}

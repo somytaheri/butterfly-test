@@ -1,0 +1,290 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$-b-i-logo-name: 'BI-logo';
+$-b-i-logo-x: 0px;
+$-b-i-logo-y: 0px;
+$-b-i-logo-offset-x: 0px;
+$-b-i-logo-offset-y: 0px;
+$-b-i-logo-width: 77px;
+$-b-i-logo-height: 16px;
+$-b-i-logo-total-width: 139px;
+$-b-i-logo-total-height: 115px;
+$-b-i-logo-image: '../images/sprites/spritesheet.png';
+$-b-i-logo: (0px, 0px, 0px, 0px, 77px, 16px, 139px, 115px, '../images/sprites/spritesheet.png', 'BI-logo', );
+$arrow-white-name: 'arrow-white';
+$arrow-white-x: 127px;
+$arrow-white-y: 72px;
+$arrow-white-offset-x: -127px;
+$arrow-white-offset-y: -72px;
+$arrow-white-width: 9px;
+$arrow-white-height: 14px;
+$arrow-white-total-width: 139px;
+$arrow-white-total-height: 115px;
+$arrow-white-image: '../images/sprites/spritesheet.png';
+$arrow-white: (127px, 72px, -127px, -72px, 9px, 14px, 139px, 115px, '../images/sprites/spritesheet.png', 'arrow-white', );
+$arrow-name: 'arrow';
+$arrow-x: 127px;
+$arrow-y: 86px;
+$arrow-offset-x: -127px;
+$arrow-offset-y: -86px;
+$arrow-width: 9px;
+$arrow-height: 14px;
+$arrow-total-width: 139px;
+$arrow-total-height: 115px;
+$arrow-image: '../images/sprites/spritesheet.png';
+$arrow: (127px, 86px, -127px, -86px, 9px, 14px, 139px, 115px, '../images/sprites/spritesheet.png', 'arrow', );
+$audit-name: 'audit';
+$audit-x: 77px;
+$audit-y: 0px;
+$audit-offset-x: -77px;
+$audit-offset-y: 0px;
+$audit-width: 24px;
+$audit-height: 29px;
+$audit-total-width: 139px;
+$audit-total-height: 115px;
+$audit-image: '../images/sprites/spritesheet.png';
+$audit: (77px, 0px, -77px, 0px, 24px, 29px, 139px, 115px, '../images/sprites/spritesheet.png', 'audit', );
+$facebook-hover-name: 'facebook-hover';
+$facebook-hover-x: 127px;
+$facebook-hover-y: 25px;
+$facebook-hover-offset-x: -127px;
+$facebook-hover-offset-y: -25px;
+$facebook-hover-width: 12px;
+$facebook-hover-height: 25px;
+$facebook-hover-total-width: 139px;
+$facebook-hover-total-height: 115px;
+$facebook-hover-image: '../images/sprites/spritesheet.png';
+$facebook-hover: (127px, 25px, -127px, -25px, 12px, 25px, 139px, 115px, '../images/sprites/spritesheet.png', 'facebook-hover', );
+$facebook-white-name: 'facebook-white';
+$facebook-white-x: 127px;
+$facebook-white-y: 50px;
+$facebook-white-offset-x: -127px;
+$facebook-white-offset-y: -50px;
+$facebook-white-width: 10px;
+$facebook-white-height: 22px;
+$facebook-white-total-width: 139px;
+$facebook-white-total-height: 115px;
+$facebook-white-image: '../images/sprites/spritesheet.png';
+$facebook-white: (127px, 50px, -127px, -50px, 10px, 22px, 139px, 115px, '../images/sprites/spritesheet.png', 'facebook-white', );
+$facebook-name: 'facebook';
+$facebook-x: 127px;
+$facebook-y: 0px;
+$facebook-offset-x: -127px;
+$facebook-offset-y: 0px;
+$facebook-width: 12px;
+$facebook-height: 25px;
+$facebook-total-width: 139px;
+$facebook-total-height: 115px;
+$facebook-image: '../images/sprites/spritesheet.png';
+$facebook: (127px, 0px, -127px, 0px, 12px, 25px, 139px, 115px, '../images/sprites/spritesheet.png', 'facebook', );
+$licence-name: 'licence';
+$licence-x: 101px;
+$licence-y: 54px;
+$licence-offset-x: -101px;
+$licence-offset-y: -54px;
+$licence-width: 20px;
+$licence-height: 28px;
+$licence-total-width: 139px;
+$licence-total-height: 115px;
+$licence-image: '../images/sprites/spritesheet.png';
+$licence: (101px, 54px, -101px, -54px, 20px, 28px, 139px, 115px, '../images/sprites/spritesheet.png', 'licence', );
+$linkedin-hover-name: 'linkedin-hover';
+$linkedin-hover-x: 51px;
+$linkedin-hover-y: 70px;
+$linkedin-hover-offset-x: -51px;
+$linkedin-hover-offset-y: -70px;
+$linkedin-hover-width: 26px;
+$linkedin-hover-height: 25px;
+$linkedin-hover-total-width: 139px;
+$linkedin-hover-total-height: 115px;
+$linkedin-hover-image: '../images/sprites/spritesheet.png';
+$linkedin-hover: (51px, 70px, -51px, -70px, 26px, 25px, 139px, 115px, '../images/sprites/spritesheet.png', 'linkedin-hover', );
+$linkedin-white-name: 'linkedin-white';
+$linkedin-white-x: 77px;
+$linkedin-white-y: 70px;
+$linkedin-white-offset-x: -77px;
+$linkedin-white-offset-y: -70px;
+$linkedin-white-width: 23px;
+$linkedin-white-height: 22px;
+$linkedin-white-total-width: 139px;
+$linkedin-white-total-height: 115px;
+$linkedin-white-image: '../images/sprites/spritesheet.png';
+$linkedin-white: (77px, 70px, -77px, -70px, 23px, 22px, 139px, 115px, '../images/sprites/spritesheet.png', 'linkedin-white', );
+$linkedin-name: 'linkedin';
+$linkedin-x: 25px;
+$linkedin-y: 70px;
+$linkedin-offset-x: -25px;
+$linkedin-offset-y: -70px;
+$linkedin-width: 26px;
+$linkedin-height: 25px;
+$linkedin-total-width: 139px;
+$linkedin-total-height: 115px;
+$linkedin-image: '../images/sprites/spritesheet.png';
+$linkedin: (25px, 70px, -25px, -70px, 26px, 25px, 139px, 115px, '../images/sprites/spritesheet.png', 'linkedin', );
+$manufacturing-name: 'manufacturing';
+$manufacturing-x: 101px;
+$manufacturing-y: 25px;
+$manufacturing-offset-x: -101px;
+$manufacturing-offset-y: -25px;
+$manufacturing-width: 22px;
+$manufacturing-height: 29px;
+$manufacturing-total-width: 139px;
+$manufacturing-total-height: 115px;
+$manufacturing-image: '../images/sprites/spritesheet.png';
+$manufacturing: (101px, 25px, -101px, -25px, 22px, 29px, 139px, 115px, '../images/sprites/spritesheet.png', 'manufacturing', );
+$producing-dairy-name: 'producing-dairy';
+$producing-dairy-x: 32px;
+$producing-dairy-y: 47px;
+$producing-dairy-offset-x: -32px;
+$producing-dairy-offset-y: -47px;
+$producing-dairy-width: 24px;
+$producing-dairy-height: 22px;
+$producing-dairy-total-width: 139px;
+$producing-dairy-total-height: 115px;
+$producing-dairy-image: '../images/sprites/spritesheet.png';
+$producing-dairy: (32px, 47px, -32px, -47px, 24px, 22px, 139px, 115px, '../images/sprites/spritesheet.png', 'producing-dairy', );
+$safety-name: 'safety';
+$safety-x: 77px;
+$safety-y: 29px;
+$safety-offset-x: -77px;
+$safety-offset-y: -29px;
+$safety-width: 23px;
+$safety-height: 24px;
+$safety-total-width: 139px;
+$safety-total-height: 115px;
+$safety-image: '../images/sprites/spritesheet.png';
+$safety: (77px, 29px, -77px, -29px, 23px, 24px, 139px, 115px, '../images/sprites/spritesheet.png', 'safety', );
+$search-white-name: 'search-white';
+$search-white-x: 0px;
+$search-white-y: 16px;
+$search-white-offset-x: 0px;
+$search-white-offset-y: -16px;
+$search-white-width: 31px;
+$search-white-height: 31px;
+$search-white-total-width: 139px;
+$search-white-total-height: 115px;
+$search-white-image: '../images/sprites/spritesheet.png';
+$search-white: (0px, 16px, 0px, -16px, 31px, 31px, 139px, 115px, '../images/sprites/spritesheet.png', 'search-white', );
+$search-name: 'search';
+$search-x: 101px;
+$search-y: 0px;
+$search-offset-x: -101px;
+$search-offset-y: 0px;
+$search-width: 26px;
+$search-height: 25px;
+$search-total-width: 139px;
+$search-total-height: 115px;
+$search-image: '../images/sprites/spritesheet.png';
+$search: (101px, 0px, -101px, 0px, 26px, 25px, 139px, 115px, '../images/sprites/spritesheet.png', 'search', );
+$transfering-name: 'transfering';
+$transfering-x: 0px;
+$transfering-y: 70px;
+$transfering-offset-x: 0px;
+$transfering-offset-y: -70px;
+$transfering-width: 25px;
+$transfering-height: 27px;
+$transfering-total-width: 139px;
+$transfering-total-height: 115px;
+$transfering-image: '../images/sprites/spritesheet.png';
+$transfering: (0px, 70px, 0px, -70px, 25px, 27px, 139px, 115px, '../images/sprites/spritesheet.png', 'transfering', );
+$twitter-hover-name: 'twitter-hover';
+$twitter-hover-x: 31px;
+$twitter-hover-y: 16px;
+$twitter-hover-offset-x: -31px;
+$twitter-hover-offset-y: -16px;
+$twitter-hover-width: 32px;
+$twitter-hover-height: 23px;
+$twitter-hover-total-width: 139px;
+$twitter-hover-total-height: 115px;
+$twitter-hover-image: '../images/sprites/spritesheet.png';
+$twitter-hover: (31px, 16px, -31px, -16px, 32px, 23px, 139px, 115px, '../images/sprites/spritesheet.png', 'twitter-hover', );
+$twitter-white-name: 'twitter-white';
+$twitter-white-x: 0px;
+$twitter-white-y: 97px;
+$twitter-white-offset-x: 0px;
+$twitter-white-offset-y: -97px;
+$twitter-white-width: 24px;
+$twitter-white-height: 18px;
+$twitter-white-total-width: 139px;
+$twitter-white-total-height: 115px;
+$twitter-white-image: '../images/sprites/spritesheet.png';
+$twitter-white: (0px, 97px, 0px, -97px, 24px, 18px, 139px, 115px, '../images/sprites/spritesheet.png', 'twitter-white', );
+$twitter-name: 'twitter';
+$twitter-x: 0px;
+$twitter-y: 47px;
+$twitter-offset-x: 0px;
+$twitter-offset-y: -47px;
+$twitter-width: 32px;
+$twitter-height: 23px;
+$twitter-total-width: 139px;
+$twitter-total-height: 115px;
+$twitter-image: '../images/sprites/spritesheet.png';
+$twitter: (0px, 47px, 0px, -47px, 32px, 23px, 139px, 115px, '../images/sprites/spritesheet.png', 'twitter', );
+$spritesheet-width: 139px;
+$spritesheet-height: 115px;
+$spritesheet-image: '../images/sprites/spritesheet.png';
+$spritesheet-sprites: ($-b-i-logo, $arrow-white, $arrow, $audit, $facebook-hover, $facebook-white, $facebook, $licence, $linkedin-hover, $linkedin-white, $linkedin, $manufacturing, $producing-dairy, $safety, $search-white, $search, $transfering, $twitter-hover, $twitter-white, $twitter, );
+$spritesheet: (139px, 115px, '../images/sprites/spritesheet.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

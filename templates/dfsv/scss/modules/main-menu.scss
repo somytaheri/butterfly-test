@@ -1,0 +1,72 @@
+
+.sf-menu {
+  width: 100%;
+  text-align: center;
+  float: none;
+  font-family: $font-Arial;
+  font-weight: bold;
+  font-size: 20px;
+  & > li:first-child {
+    display: none;
+  }
+  & > li {
+    height: 64px;
+    background-color: $color-blue;
+    width: 25%;
+    &:hover {
+      background-color: $color-blue-light-2;
+    }
+    a {
+      line-height: 34px;
+      border-right: 3px solid $color-blue-light-1;
+      color: $color-white;
+      border-left: none;
+      border-top: none;
+    }
+    ul {
+      li {
+        min-width: 325px;
+        height: 56px;
+        font-size: 18px;
+        background-color: $color-blue-light-2;
+        text-align: left;
+        &:hover {
+          background-color: $color-blue-light-1;
+        }
+        a {
+          line-height: 26px;
+          padding-left: 30px;
+          border-right: none;
+          border-top: 3px solid $color-blue-light-3;
+        }
+        ul li {
+          background-color: $color-blue-light-1;
+          &:hover {
+            background-color: $color-blue-dark-1;
+          }
+          ul li {
+            background-color: $color-blue-dark-1;
+            &:hover {
+              background-color: $color-blue-dark-2;
+            }
+          }
+        }
+      }
+      li.parent > a::after {
+        display: inline-block;
+        content: "";
+        @include sprite($arrow-white);
+        position: absolute;
+        top: 20px;
+        right: 30px;
+      }
+
+    }
+  }
+  & > li:last-child {
+    a {
+      border-right: none;
+    }
+
+  }
+}

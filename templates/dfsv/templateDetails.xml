@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>DFSV</name>
+	<version>1.0</version>
+	<creationDate>24/09/2015</creationDate>
+	<author>Somy Taheri</author>
+	<authorEmail>somy.taheri@gmail.com</authorEmail>
+	<copyright>Copyright (C) 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<description>This is a template for DFSV project</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>scss</folder>
+		<folder>font</folder>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>debug</position>
+		<position>headerTop</position>
+		<position>secondarymenu</position>
+		<position>navigation</position>
+		<position>banner</position>
+		<position>footerTop</position>
+		<position>footerMiddle</position>
+		<position>footerBottom</position>
+		<position>contentTop</position>
+		<position>contentMiddle</position>
+		<position>contentBottom</position>
+		<position>headerBottom</position>
+		<position>search-banner</position>
+		<position>headerMiddle</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>footer</position>
+	</positions>
+</extension>
