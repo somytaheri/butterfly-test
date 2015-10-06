@@ -15,7 +15,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = 'root';
-	public $db = 'joomla';
+	public $db = 'butterfly-test';
 	public $dbprefix = 'm8hw2_';
 	public $live_site = '';
 	public $secret = '8pA5MEuysgIWCTRX';
@@ -55,8 +55,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/Users/amir/Sites/test/logs';
-	public $tmp_path = '/Users/amir/Sites/test/tmp';
+	public $log_path = '/Users/amir/Sites/butterfly-test/logs';
+	public $tmp_path = '/Users/amir/Sites/butterfly-test/tmp';
 	public $lifetime = '60';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';
